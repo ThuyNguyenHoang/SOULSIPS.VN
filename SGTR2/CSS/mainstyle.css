@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Reset Style */
+* {
+  box-sizing: border-box
+}
+.body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
+  color: #666666;
+  margin: 0
+}
+.container {
+  width: 80%;
+  margin: 0 auto
+}
+.img-100 {
+  width: 100%;
+  height: auto
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #FDA73C
+}
+.logo {
+  float: left
+}
+.menu {
+  float: right;
+  padding-top: 20px
+}
+.menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold
+}
+.menu a hover {
+  color: red
+}
+/*phan main*/
+main {
+  width: 100%;
+  min-height: 500px;
+  clear: both
+}
+.w-25 {
+  width: 25%;
+  padding: 15px;
+  float: left
+}
+.vien {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #0E1EEF;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 40px
+}
+.bo-goc {
+  border-radius: 10px
+}
+.tour {
+  color: blue
+}
+.gia {
+  color: red
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #FDA73C;
+  clear: both;
+  color: white;
+  text-align: center;
+  line-height: 50px
+}
+.h1{ text-transform: uppercase}
+.form-control {
+	padding: 8px; margin-bottom: 10px; text-transform: uppercase; width: 100%}
+.btn{
+	padding: 10px 20px; background-color:#FDA73C; color: antiquewhite; border: #B66421 2px solid; border-radius: 20px; cursor: pointer;margin-right: 15px;text-transform: uppercase
+}
+.btn-nhap{ padding: 10px 20px; background-color:#0E1EEF; color: antiquewhite; border:#B6F1F2 2px solid; border-radius: 20px; cursor: pointer;margin-right: 15px;text-transform: uppercase}
+
+.textarea {font-style: italic}
+.w-40{ width: 40%; padding: 15px; float: left}
+.w-60{ width: 60%; padding: 15px; float: left }
+.text-xanh{color: blue}
+.gach-chan{ border-bottom: 3px blue solid}
+.vien-xam{
+	width: 100%; min-height: 300px; border: 1px solid grey; border-radius: 10px; padding: 10px
+; margin-bottom: 15px}
+.text-den{color: deeppink}
